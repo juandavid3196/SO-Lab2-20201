@@ -40,7 +40,7 @@ int main(int argc, char *argv[]){
             
 			wait(NULL);
             gettimeofday(&endingTime, NULL);
-            printf("elapsed time: %ld\n",(endingTime.tv_usec - startingTime.tv_usec)/10000); 
+            printf("elapsed time: %ld\n",(endingTime.tv_usec - startingTime.tv_usec)); 
         }
     }
     return 0;
